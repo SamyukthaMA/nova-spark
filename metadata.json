@@ -1,0 +1,7 @@
+{
+  "name": "Nova Spark",
+  "description": "A production-grade fintech AI assistant for Indian financial markets (NSE/BSE).",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

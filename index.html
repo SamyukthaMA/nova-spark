@@ -1,44 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nova Spark | Fintech AI</title>
-
-    <!-- Tailwind CDN (ok for demo) -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            colors: {
-              nova: {
-                bg: '#000000',
-                ash: '#121212',
-                card: '#18181b',
-                border: '#27272a',
-                text: '#e4e4e7',
-                muted: '#a1a1aa',
-                accent: '#ffffff',
-              },
-            },
-          },
-        },
-      };
-    </script>
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
     <script type="module" crossorigin src="/nova-spark/assets/index-B2VXstqF.js"></script>
   </head>
-
-  <body class="bg-black text-zinc-200">
-    <!-- ✅ SINGLE ROOT -->
+  <body>
     <div id="root"></div>
 
-    <!-- ✅ CORRECT VITE ENTRY -->
+    <!-- IMPORTANT: your entry file is index.tsx, not main.tsx -->
   </body>
 </html>
